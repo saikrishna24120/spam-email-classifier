@@ -1,0 +1,23 @@
+{
+  "accuracy": 1.0,
+  "spam_precision": 1.0,
+  "spam_recall": 1.0,
+  "spam_f1": 1.0,
+  "confusion_matrix_actual_then_predicted": {
+    "ham": {
+      "ham": 5,
+      "spam": 0
+    },
+    "spam": {
+      "ham": 0,
+      "spam": 5
+    }
+  },
+  "training_rows": 40,
+  "test_rows": 10,
+  "seed": 42,
+  "dataset": "demo.csv",
+  "dataset_sha256": "90bca324f6a63d70fafb00327501428c4053e5c23f1022b4938ccef5ba3a54b7",
+  "evaluation": "80/20 stratified holdout; vocabulary fitted only on training rows",
+  "limitation": "Small synthetic demo results do not measure real-world performance."
+}
